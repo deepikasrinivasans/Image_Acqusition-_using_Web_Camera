@@ -39,7 +39,7 @@ End the program and close the output video window by pressing 'q'.
 ```
 
 ## i) Write the frame as JPG file
-```
+```Python
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
@@ -50,7 +50,7 @@ viedoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 ## ii) Display the video
-```
+```Python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -63,7 +63,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 ## iii) Display the video by resizing the window
-```
+```Python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -84,7 +84,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 ## iv) Rotate and display the video
-```
+```Python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
